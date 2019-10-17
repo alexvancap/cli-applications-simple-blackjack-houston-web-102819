@@ -55,4 +55,4 @@ def runner
   hit?(deal_card + deal_card)
 end
 
-runner
+p runner
