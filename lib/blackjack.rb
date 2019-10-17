@@ -53,7 +53,6 @@ def runner
   initial_round
   prompt_user
   until hit?(deal_card + deal_card) == 21 do
-    return hit?
   end
 end
 
