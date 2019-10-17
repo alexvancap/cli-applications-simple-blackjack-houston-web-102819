@@ -36,14 +36,22 @@ def invalid_command
 end
 
 def hit?(card_total)
+  prompt_user
   answer = get_user_input
-  if answer == "h"
+  if answer == 'h'
     card_total += deal_card
-  elsif answer == "s"
+  elsif answer == 's'
     card_total
   else
     invalid_command
     prompt_user
     get_user_input
   end
+end
+
+def runner
+  welcome
+  initial_round
+  prompt_user
+  hit?.until{|index| index > 21}
 end
