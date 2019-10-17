@@ -55,3 +55,5 @@ def runner
   prompt_user
   hit?(deal_card + deal_card)
 end
+
+runner
