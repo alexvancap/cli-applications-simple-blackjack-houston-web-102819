@@ -53,7 +53,6 @@ def runner
   initial_round
   prompt_user
   while hit?(deal_card + deal_card) != 21 do
-    
   end
 end
 
