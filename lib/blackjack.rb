@@ -50,9 +50,8 @@ end
 
 def runner
   welcome
-  initial_round
-  prompt_user
-  until hit?(deal_card + deal_card) == 21 do
+  total = initial_round
+  until total > 21 do
   end
 end
 
