@@ -55,5 +55,6 @@ def runner
   hit?(total).until total < 21 do
     display_card_total(total)
   end
+end_game
   end
 end
