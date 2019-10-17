@@ -52,7 +52,8 @@ def runner
   welcome
   initial_round
   prompt_user
-  while hit?(deal_card + deal_card) != 21 do
+  until hit?(deal_card + deal_card) != 21 do
+    return 
   end
 end
 
