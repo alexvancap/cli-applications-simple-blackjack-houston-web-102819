@@ -48,10 +48,3 @@ def hit?(card_total)
     get_user_input
   end
 end
-
-def runner
-  welcome
-  initial_round
-  prompt_user
-  hit?.until{|index| index > 21}
-end
