@@ -53,5 +53,5 @@ def runner
   welcome
   initial_round
   prompt_user
-  hit?(deal_card + deal_card).untill{|index| index > 21}
+  hit?(deal_card + deal_card)
 end
